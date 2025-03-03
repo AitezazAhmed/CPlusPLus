@@ -20,3 +20,5 @@ int main(){
 //     int y=++x; // here first x is addition and then store in y and here x=11 and y=11
 //     cout<<x<< endl;
 //  }
+
+//
