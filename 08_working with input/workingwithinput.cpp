@@ -17,3 +17,5 @@ int main() {
     double celsius = (fahrenheit - 32) * (5.0 / 9.0);  // Use 5.0 / 9.0 to ensure floating-point division
     cout << "Temperature in Celsius: " << celsius << endl;
 }
+
+//
