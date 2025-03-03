@@ -18,3 +18,4 @@ int main(){
 //   double z=(x+10)/(3*y);
 //   cout<<z<<endl;
 // }
+//
