@@ -1,17 +1,14 @@
 #include <iostream>
 using namespace std;
 
-// Function to find sum
 int findSum(int a, int b, int c) {
     return a + b + c;
 }
 
-// Function to find subtraction (a - b - c)
 int findSubtract(int a, int b, int c) {
     return a - b - c;
 }
 
-// Function to find max
 int findMax(int a, int b, int c) {
     int max = a;
     if (b > max) max = b;
@@ -19,7 +16,6 @@ int findMax(int a, int b, int c) {
     return max;
 }
 
-// Function to find min
 int findMin(int a, int b, int c) {
     int min = a;
     if (b < min) min = b;
@@ -36,7 +32,6 @@ int main() {
     cout << "Enter value of c: ";
     cin >> c;
     int choice;
-    cout << "\nChoose an operation:\n";
     cout << "1. Sum\n";
     cout << "2. Subtract\n";
     cout << "3. Max\n";
